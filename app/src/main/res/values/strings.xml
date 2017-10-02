@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="title_text">Tic-Tac-Toe</string>
+    <string name="x_text">X</string>
+    <string name="o_text">O</string>
+    <string name="empty_text">_</string>
+    <string name="startOver_text">Start over</string>
+
+    <string name="TextXturn">It is X\'s turn to play!</string>
+    <string name="TextOturn">It is O\'s turn to play!</string>
+    <string name="TextOWinner">Game over - O wins!</string>
+    <string name="TextXWinner">Game over - X wins!</string>
+    <string name="RestoreGame">Game Restored</string>
+    <string name="ResetGame">Game Reset</string>
+    <string name="StartOver">Game is won! Start a new game to continue</string>
+</resources>

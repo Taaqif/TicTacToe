@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <GridLayout
+        android:id="@+id/grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:columnCount="3"
+
+        android:orientation="horizontal">
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/textWhoIsPlaying"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TextXturn"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/button_startOver"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onStartOverClick"
+        android:padding="10sp"
+        android:text="@string/startOver_text"
+        android:textColor="#000000" />
+
+
+</LinearLayout>
+
